@@ -1,9 +1,9 @@
 package lib;
 
 public class Car {
-    private int acceleration;
-    private int friction;
-    private int current_speed = 0;
+    int acceleration;
+    int friction;
+    int current_speed = 0;
 
     public Car(int acceleration, int friction){
         this.acceleration = acceleration;
