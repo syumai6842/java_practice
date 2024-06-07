@@ -1,7 +1,7 @@
 package lib;
 
 public class ExchangeRate {
-    static private float JPY = 150;
+    static public float JPY = 150;
     static private float KRW = 1365;
 
     public static int ExchangeJPYtoKRW(int yen){
